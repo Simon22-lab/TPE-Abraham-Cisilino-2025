@@ -1,8 +1,20 @@
-# TPE-Abraham-Cisilino-2025
-En este repositorio se encuentra todo lo desarrollado para el TPE de la materia Fundamentos de la Ciencia de Datos-cursada 2025.
+# Trabajo Practico Especial - Fundamentos de la Ciencia de Datos
 
+## Autores : 
+    Cisilino Bautista y Abraham Simon.
 
 ## Ideas para multivariadas :
+
+Hipótesis 1: El Perfil de Tiempo del "Tipo de Visitante"
+Pregunta: ¿Los visitantes nuevos y los recurrentes usan el sitio de forma integralmente diferente?
+
+Grupos: VisitorType (que tiene 3 categorías: New_Visitor, Returning_Visitor, Other).
+
+Variables (El Perfil): El vector (Administrative_Duration, Informational_Duration, ProductRelated_Duration).
+
+Hipótesis Multivariada: "El perfil de distribución de tiempo (el vector de medias de las tres duraciones) es significativamente diferente entre, al menos, dos de los grupos de VisitorType."
+
+Intuición: Podríamos esperar que los Returning_Visitor pasen, en promedio, más tiempo en Administrative (para chequear sus cuentas) que los New_Visitor, quienes quizás pasen más tiempo en Informational o ProductRelated.
 
 ### Idea 1: El Perfil de Conversión (Usuario + Comportamiento)
 - Pregunta de Negocio: ¿Se comportan igual los clientes nuevos y los recurrentes cuando van a comprar?
