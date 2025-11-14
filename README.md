@@ -42,4 +42,4 @@ pip3 install -r requirements.txt
 
 ## Notas / alcaraciones
 - Si usa `python3`/`pip3`, use esos comandos en lugar de `python`/`pip`.
-- Si `jupyter` no abre, instale Jupyter con: `pip install jupyter`.
+
